@@ -99,6 +99,7 @@ span {
   color: #fff;
   display: inline-block;
   padding-bottom: 5px;
+  transition: transform 0.3s ease;
 }
 
 .container2 .hover-link::after {
@@ -110,6 +111,10 @@ span {
   height: 2px;
   background-color: #fff;
   transition: width 0.3s ease;
+}
+
+.container2 .hover-link:hover {
+  transform: translateX(10px);
 }
 
 .container2 .hover-link:hover::after {
