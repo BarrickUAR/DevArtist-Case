@@ -115,3 +115,9 @@ span {
 .container2 .hover-link:hover::after {
   width: 100%;
 }
+
+.container3 {
+  background-image: url(/assets/images/location.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
