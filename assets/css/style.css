@@ -9,6 +9,7 @@ html,
 body {
   height: 100%;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 img,
@@ -73,6 +74,7 @@ ol {
   object-fit: contain;
   width: 70px;
   height: 70px;
+  cursor: pointer;
 }
 
 .logo {
