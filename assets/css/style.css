@@ -1,0 +1,117 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* CSS Reset */
+
+.counter {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+.Item p:first-of-type {
+  font-family: "Anta", serif;
+  letter-spacing: 6px;
+}
+
+.Item .lead {
+  font-family: "Inter", sans-serif;
+}
+
+.fs-100 {
+  font-size: 100px;
+}
+
+.g-30 {
+  gap: 30px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.company {
+  object-fit: contain;
+  width: 70px;
+  height: 70px;
+}
+
+.logo {
+  width: 380px;
+  filter: brightness(0) invert(1);
+}
+
+.footer {
+  background-color: #231f20;
+}
+
+.copyright {
+  background-color: #231f20;
+}
+
+span {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.container2 .hover-link {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.container2 .hover-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.container2 .hover-link:hover::after {
+  width: 100%;
+}
